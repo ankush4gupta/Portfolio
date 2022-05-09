@@ -19,7 +19,73 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="./images/logos/logo.png" type="image/x-icon">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
 </head>
+<style>
+	body {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	a {
+		transition: all 0.3s ease;
+	}
+
+	.weight-500 {
+		font-weight: 500;
+	}
+
+	.navbar-nav {
+		font-weight: 600;
+	}
+
+	.btn {
+		position: relative;
+		padding: 13.5px 36px;
+		font-weight: 700;
+		border-radius: 30px;
+		font-size: 13px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+
+	.banner-image {
+		background-image: url("./images/Temp-800x1135.jpg");
+		background-repeat: no-repeat;
+		/* background-attachment: fixed; */
+		background-position: right;
+		/* background-size:contain; */
+		background-size: contain;
+
+		/* float: right; */
+	}
+
+	.social-icons a {
+		margin-right: 15px;
+		color: #999;
+	}
+
+	.social-icons a:hover {
+		color: #333;
+	}
+	.btn-lg  :hover{
+		background-color: white;
+		color: #b1b493;
+		border-color: #b1b493;
+	}
+
+	@media(max-width:768px) {
+		.banner-image {
+			background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("./images/Temp-800x1135.jpg");
+			background-repeat: no-repeat;
+			background-position: right;
+			background-size: contain;
+		}
+	}
+</style>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -46,7 +112,7 @@
 			</div>
 		</div>
 	</nav>
-	<section id="home-section" class="hero">
+	<!-- <section id="home-section" class="hero">
 		<div class="home-slider owl-carousel">
 			<div class="slider-item">
 				<div class="overlay"></div>
@@ -96,8 +162,29 @@
 				</div>
 			</div>
 		</div>
-	</section>
-
+	</section> -->
+	<div class="container pt-5">
+		<div class="banner-image">
+			<div class="container py-5">
+				<div class="row py-5">
+					<div class="col-lg-6 col-md-12 mr-auto pt-5">
+						<h1 class="display-4 pb-4 weight-500 ">Hi, I'm Ankush Gupta.</h1>
+						<p class="text-muted lead">A Full-Stack Web Developer and Problem Solver </p>
+						<p class="text-muted lead pb-5">I Design &amp; Build Web Application</p>
+						
+						<a href="https://drive.google.com/uc?export=download&id=1OYpqX7nAqei0qvwz4iXJYWDqL2rmzQwe" class="btn btn-primary btn-lg"> Download Cv </a>
+						<div class="social-icons mt-5">
+							<a href="#"><i class="lni lni-facebook-filled"></i></a>
+							<a href="#"><i class="lni lni-twitter-filled"></i></a>
+							<a href="#"><i class="lni lni-instagram-filled"></i></a>
+							<a href="#"><i class="lni lni-github-original"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
 	<!-- <section class="ftco-counter img bg-light" id="section-counter">
 		<div class="container">
 			<div class="row">
